@@ -1,7 +1,19 @@
 aid: cron-systems
 name: Cron Systems
-description: Cron Systems is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cron Systems (now operating as Cron AI) builds deep-learning perception software
+  for 3D sensor and LiDAR data. Its flagship platform, senseEDGE, performs real-time
+  3D object detection, classification, and tracking from point-cloud data at the edge,
+  with multi-sensor fusion and adverse-weather resilience. The technology serves
+  intelligent transportation systems, smart infrastructure, autonomous mobility,
+  smart cities, and security and surveillance — powering use cases such as traffic
+  management, autonomous tolling, crowd and queue management, smart parking, vehicle
+  counting, and airport and aircraft-movement monitoring. Object output is emitted as
+  JSON and Flatbuffers binary over WebSocket, with a web-based configuration and
+  visualizer utility, VPN and PTP time-synchronization support, and a privacy-preserving,
+  GDPR-compliant design. Cron AI was surfaced as a Techstars portfolio company and added
+  to the API Evangelist network; the company currently publishes no public developer API,
+  documentation, or SDK surface.
 url: https://raw.githubusercontent.com/api-evangelist/cron-systems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- LiDAR
+- 3D Perception
+- Computer Vision
+- Deep Learning
+- Edge Computing
+- Intelligent Transportation
+- Smart Cities
+- Autonomous Vehicles
+- Sensor Fusion
+image: https://cronai.ai/wp-content/uploads/2026/06/cronAI_image-1-1024x577.jpeg
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +55,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cronsystems.com/
+  url: https://www.cronai.ai/
+- type: Support
+  url: https://cronai.ai/contact
+- type: Blog
+  url: https://connect-cron.medium.com/
+- type: PrivacyPolicy
+  url: https://www.termsfeed.com/live/02d076a7-ac54-4945-b1ac-1310ebd9a681
+- type: DomainSecurity
+  url: security/cron-systems-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
