@@ -50,7 +50,7 @@ tags:
 - Company
 - LiDAR
 - 3D Perception
-- Computer-Vision
+- Computer Vision
 - Deep Learning
 - Edge Computing
 - Intelligent Transportation
@@ -68,6 +68,7 @@ tags_raw:
 - Smart Cities
 - Autonomous Vehicles
 - Sensor Fusion
+- Computer-Vision
 image: https://cronai.ai/wp-content/uploads/2026/06/cronAI_image-1-1024x577.jpeg
 apis: []
 maintainers:
